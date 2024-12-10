@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terima Kasih atas Pesanan Anda</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .thank-you-container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .thank-you-container h1 {
+            color: #333;
+        }
+        .thank-you-container p {
+            color: #666;
+        }
+        .order-summary {
+            margin-top: 20px;
+            text-align: left;
+        }
+        .order-summary h2 {
+            color: #333;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+        .order-summary ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .order-summary li {
+            color: #666;
+            margin-bottom: 10px;
+        }
+        .back-to-home {
+            margin-top: 20px;
+            display: inline-block;
+            text-decoration: none;
+            color: #fff;
+            background-color: #007bff;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+        .back-to-home:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="thank-you-container">
+        <h1>Terima Kasih atas Pesanan Anda!</h1>
+        <p>Pesanan Anda sedang diproses dan akan segera kami kirimkan.</p>
+        <div class="order-summary">
+            <h2>Ringkasan Pesanan:</h2>
+            <ul>
+                <li>Nasi Goreng - Rp 20.000</li>
+                <!-- Tambahkan item lain sesuai pesanan -->
+            </ul>
+        </div>
+        <a href="index.html" class="back-to-home">Kembali ke Beranda</a>
+    </div>
+</body>
+</html>
